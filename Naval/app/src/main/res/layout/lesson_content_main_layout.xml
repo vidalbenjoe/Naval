@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2181e7"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/lessonContentToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/theme_color"
+            android:elevation="4dp"
+            app:popupTheme="@style/Toolbar.TitleText"
+            app:theme="@style/ToolbarTheme"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativeToolbar">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="12dp"
+            android:fadeScrollbars="true"
+            android:listSelector="@android:color/transparent"
+            android:padding="5dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollingCache="false" />
+
+        <View
+            android:id="@+id/touch_interceptor_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/details_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2181e7"
+            android:orientation="vertical">
+
+            <com.ph.archilonian.naval.Utilities.GUI.CustomViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="#2181e7"
+                tools:context=".Activity_Topics" />
+
+            <LinearLayout
+                android:id="@+id/linearOptionsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/gradient_blue"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".50"
+                    android:background="#222F3D"
+                    android:paddingLeft="10dp"
+                    android:text="Video"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnTTS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".50"
+                    android:background="#222F3D"
+                    android:paddingLeft="10dp"
+                    android:text="Speak"
+                    android:textColor="@android:color/white" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="#fff" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tabs">
+
+                <RelativeLayout
+                    android:id="@+id/relativeBanner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff">
+
+                    <com.ph.archilonian.naval.Utilities.GUI.TouchImageView
+                        android:id="@+id/details_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linearFrontView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/theme_color"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:id="@+id/linearFrontView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".70"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtContentTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Title"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@android:color/white" />
+                    </LinearLayout>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight=".35">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvContents"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Contents"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:id="@+id/bb_menu_home"-->
+        <!--android:icon="@drawable/home"-->
+        <!--android:title="Home" />-->
+
+    <item
+        android:id="@+id/bb_menu_lessons"
+        android:icon="@drawable/book"
+        android:title="Lessons" />
+
+    <item
+        android:id="@+id/bb_menu_assessment"
+        android:icon="@drawable/lamp"
+        android:title="Assessment" />
+
+    <item
+        android:id="@+id/bb_menu_parts"
+        android:icon="@drawable/cogs"
+        android:title="Parts" />
+
+</menu>

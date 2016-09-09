@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Naval</string>
+
+    <string name="intro_preweek0">
+        Objectives: \n\n
+        States that, for a ship to float, it must displace a mass of water equal to its own mass.
+</string>
+
+    <string name="intro_preweek1"><![CDATA[
+    Objectives: \n\n
+        • Enable to distinguish, when the mass of a ship changes, the mass of water displaced changes by an equal amount.\n
+        • Determine the relationship between the displacement and mean draught of a ship by using the graph or scale.\n\n\n
+
+        https://www.youtube.com/watch?v=ivQzkdGUrnw – Explanation </br>
+        https://www.youtube.com/watch?v=X_6fTJRPOXw – Calculation of Displacementn
+    ]]></string>
+
+    <string name="intro_preweek2"><![CDATA[
+    Objectives:\n\n
+
+    •	Comprehends why the draught of a ship decreases when it passes from fresh water to seawater and vice versa.\n
+    •	Extends knowledge about the use of a hydrometer to find the density of dock water.
+
+
+    ]]></string>
+
+    <string name="intro_preweek3"><![CDATA[
+    Objectives:\n\n
+    •	Differentiates how the chart of zones, areas and seasonal periods is used to find the applicable load line.\n
+    •	Differentiates freeboard, measured from the upper edge of the deck line to the water on each side, is used to check that the ship is within its permitted limits of loading.
+
+    ]]></string>
+
+    <string name="intro_preweek4">
+        Objectives: \n\n
+    •	Define the transverse met centre (M) as the point of intersection of successive buoyancy force vectors as the angle of heel increases by a small angle.\n
+    •	Comprehends that, for small angles of heel, M can be considered as a fixed point on the centerline on a diagram of a ship heeled to a small angle indicates G, B, Z and M.
+
+    </string>
+
+    <string name="intro_preweek5"><![CDATA[
+    Objectives:\n\n
+
+    •	Recalls how lowering the position of G increases all values of the righting lever and vice versa.\n
+    •	Identifies calculations as in the above objective to find the vertical and horizontal shifts of the center of gravity resulting from adding, removing or moving masses.
+
+    ]]></string>
+
+    <string name="intro_preweek6">
+        <![CDATA[
+    Objectives:\n\n
+
+    •	Identifies if the point of suspension is moved horizontally, the center of gravity of the ship also moves horizontally.\n
+    •	Estimate, by using moments about the keel, the position of G after loading or discharging given masses at stated positions.
+
+        ]]>
+    </string>
+
+    <string name="intro_midweek7">
+        Objectives: \n\n
+
+    •	Comprehends by means of diagrams how the center of gravity of the liquid in a partly filled tank moves during rolling\n
+    •	Recall the effects of slack tanks, movement of liquids on GM of a ship
+
+    </string>
+
+    <string name="intro_midweek8">
+        <![CDATA[
+    Objectives:  \n\n
+    •	To be able to recall the about trim and how to calculate it using trim tables\n
+    •	Identifies what are the factors affecting it
+        ]]>
+    </string>
+
+    <string name="intro_midweek910">
+        <![CDATA[
+    Objective: \n\n
+   •	Distinguish the general arrangements on different types of ships.
+        ]]>
+    </string>
+    
+    <string name="intro_midweek11">
+        <![CDATA[
+    Objective:\n\n
+    •	    Recognize the general arrangements on ship dimensions.
+        ]]>
+    </string>
+
+    <string name="intro_finweek1213">
+        <![CDATA[
+	Objectives: \n \n
+
+    •	Recalls what is meant by \'panting\' and states which part of the ship is affected\n
+    •	Recalls what is meant by \'pounding \'or \'slamming\' and states which part of the ship is affected\n
+    •	Comprehends stresses caused by localized loading
+
+        ]]>
+    </string>
+
+    <string name="intro_finweek14">
+        <![CDATA[
+    Objective: \n\n
+        •   Recalls the types of materials that are used in the construction of a ship
+        ]]>
+    </string>
+
+    <string name="intro_finweek15">
+        <![CDATA[
+    Objectives: \n
+    •	Identify the purpose of bilge keels and how they are attached to the ship\'s side
+    •   Explain why transverse bulkheads have vertical corrugations and for－and－aftbulkheads have horizontal ones\n
+
+    https://www.youtube.com/watch?v=f20mMuOclR0 – Bilge keels meaning
+        ]]>
+    </string>
+
+    <string name="intro_finweek1617">
+        <![CDATA[
+    Objectives: \n\n
+•	Identify what are the fittings found on deck\n
+•	Able to recall the construction and attachment to the deck of tension winches and comprehends how they are used\n
+•	Distinguish the action of the rudder in steering a ship\n
+•	Know the purpose of the rudder carrier and pintles
+
+        ]]>
+    </string>
+
+    <string name="intro_finweek18">
+        <![CDATA[
+    Objectives:\n\n
+    •	Identify proper use of knots ,splices and stoppers,
+    •	Able to label different  techniques on knot tying
+        ]]>
+    </string>
+
+
+    <!-- Simulation Guides List-->
+    <string name="guideslist_reset_view">Reset 3D Object</string>
+    <string name="guideslist_information">See 3D Parts Details</string>
+    <string name="guideslist_rotate_view">Rotate View</string>
+    <string name="guideslist_drag_object">Drag 3D Object</string>
+
+
+    <string name="guides_reset_view">
+        You can reset the assembled parts of the ship using this button.
+    </string>
+
+       <string name="guides_information_button">
+        Through this button you can able to see further information about the parts of the ship.
+    </string>
+
+       <string name="guides_rotate_view">
+        Upon clicking this button user can able to rotate the view of the ship while on simulation.
+    </string>
+
+       <string name="guides_drag_object">
+        This button will allow user to drag each part of the ship while simulating.
+    </string>
+
+
+    <string name="simul_quiz_title1">Anchor</string>
+    <string name="simul_quiz_content1">A device or iron so shaped to grip the bottom and holds a vessel at anchor by the anchor chain.
+</string>
+
+
+    <string name="simul_quiz_title2">Bow Thruster</string>
+    <string name="simul_quiz_content2">Bow thruster or stern thruster is a transversal propulsion device built into, or mounted to, either the bow or stern, of a shipor boat, to make it more manoeuvrable.</string>
+
+
+    <string name="simul_quiz_title3">Bulbous Bow</string>
+    <string name="simul_quiz_content3">Bulbous bow - is a protruding bulb at the bow (or front) of a ship just below the waterline. The bulb modifies the way the water flows around the hull, reducing drag and thus increasing speed, range, fuel efficiency, and stability.</string>
+
+    <string name="simul_quiz_title4">Ship Crane</string>
+    <string name="simul_quiz_content4"> A large, tall machine used for moving heavy objects, typically by suspending them from a projecting arm or beam.</string>
+    <string name="simul_quiz_title5">Deck of the ship </string>
+    <string name="simul_quiz_content5">is a permanent covering over a compartment or a hull of a ship. On a boat or ship, the primary or upper deck is the horizontal structure which forms the \'roof\' for the hull, which both strengthens the hull and serves as the primary working surface. Vessels often have more than one level both within the hull and in the superstructure above the primary deck which are similar to the floors of a multi-storey building, and which are also referred to as decks, as are specific compartments and decks built over specific areas of the superstructure. </string>
+
+    <string name="simul_quiz_title6">Forecastle</string>
+    <string name="simul_quiz_content6">Refers to the upper deck of a sailing ship forward of the foremast, or the forward part of a ship with the sailors living quarters. Related to the latter meaning is the phrase before the mast which denotes anything related to ordinary sailors, as opposed to a ship\'s officers.</string>
+
+    <string name="simul_quiz_title7">Funnel</string>
+    <string name="simul_quiz_content7"> is the smokestack or chimney on a ship used to expel boiler steam and smoke or engine exhaust. They are also commonly referred to as stacks.</string>
+
+    <string name="simul_quiz_title8">Hull</string>
+    <string name="simul_quiz_content8">Hull is the watertight body of a ship or boat. Above the hull is the superstructure and/or deckhouse, where present. The line where the hull meets the water surface is called the waterline. The structure of the hull varies depending on the vessel type.</string>
+
+    <string name="simul_quiz_title9">Main Deck</string>
+    <string name="simul_quiz_content9">Is a Principal Deck of a Vessel</string>
+
+    <string name="simul_quiz_title10">Marine diesel engine</string>
+    <string name="simul_quiz_content10">Marine diesel engine (also known as a compression-ignition or \'CI\' engine) is an internal combustion engine in which ignition of the fuelthat has been injected into the combustion chamber is initiated by the high temperature which a gas achieves when greatly compressed (adiabatic compression)</string>
+
+    <string name="simul_quiz_title11">Marine Gas Turbine</string>
+    <string name="simul_quiz_content11">Marine gas turbine, also called a combustion turbine, is a type of internal combustion engine. It has an upstream rotating compressor coupled to a downstream turbine, and a combustion chamber in between.</string>
+
+    <string name="simul_quiz_title12">Marine Steam engine</string>
+    <string name="simul_quiz_content12">Marine Steam engine that uses the expansion or rapid condensation of steam to generate power.</string>
+
+<string name="simul_quiz_title13">Propeller</string>
+    <string name="simul_quiz_content13">is a type of fan that transmits power by converting rotational motion into thrust. A pressure difference is produced between the forward and rear surfaces of the air foil-shaped blade, and a fluid (such as air or water) is accelerated behind the blade.</string>
+
+    <string name="simul_quiz_title14">Rudder</string>
+    <string name="simul_quiz_content14">is a primary control surface used to steer aship, boat, submarine, hovercraft, aircraft, or other conveyance that moves through a fluid medium (generally air or water). On an aircraft the rudder is used primarily to counter adverse yaw and p-factor and is not the primary control used to turn the airplane.
+</string>
+
+    <string name="simul_quiz_title15">Shaft</string>
+    <string name="simul_quiz_content15">is a mechanical component for transmitting torque and rotation, usually used to connect other components of a drive train that cannot be connected directly because of distance or the need to allow for relative movement between them.
+</string>
+
+    <string name="simul_quiz_title16">Stern</string>
+    <string name="simul_quiz_content16"> is the back or aft-most part of aship or boat, technically defined as the area built up over the sternpost, extending upwards from the counter rail to the Taff rail. The stern lies opposite of the bow, the foremost part of a ship.
+</string>
+
+
+
+
+
+</resources>

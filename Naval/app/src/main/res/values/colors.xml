@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2ea3fe</color>
+    <color name="colorPrimaryDark">#2ea3fe</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="greenPrimary">#3cb878</color>
+    <color name="greenPrimaryDark">#319d65</color>
+
+    <color name="midnightPrimaryDark">#2d3137</color>
+    <color name="theme_color">#00aef0</color>
+    <color name="radiobt_color">#787777</color>
+    <color name="tabselected_color">#186eb1</color>
+
+</resources>
